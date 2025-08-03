@@ -1,0 +1,18 @@
+{
+  "name": "angelone-bot",
+  "version": "1.0.0",
+  "description": "Angel One Bot Dashboard",
+  "main": "bot/main.js",
+  "scripts": {
+    "start": "node bot/main.js",
+    "api": "node backend/index.js"
+  },
+  "author": "Biplab Das",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "smartapi-javascript": "^1.0.27"
+  }
+}

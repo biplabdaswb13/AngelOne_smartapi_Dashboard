@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment config
+.env
+
+# Logs
+*.log
+telegram_signals.log
+alerts.log
+
+# Build output
+frontend/dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# CSV exports
+*.csv
